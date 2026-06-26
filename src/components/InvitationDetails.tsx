@@ -28,7 +28,7 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
     "Mehendi Night": { time: "6:00 PM - Friday", location: "The Royal Gardens", desc: "Join us for an evening of music, dance, and henna." },
     "Wedding Ceremony": { time: "10:00 AM - Saturday", location: "Grand Palace Hall", desc: "Witness the sacred union and vows." },
     "Grand Reception": { time: "7:00 PM - Saturday", location: "Crystal Ballroom", desc: "Dine and dance the night away to celebrate." },
-    "Shitabi/Mandwo": { time: "Time TBD", location: "Venue TBD", desc: "Traditional pre-wedding ceremonies." },
+    "Shitabi & Mandwo": { time: "Time TBD", location: "Venue TBD", desc: "Traditional pre-wedding ceremonies." },
     "Majlis": { time: "Time TBD", location: "Venue TBD", desc: "A spiritual gathering and blessings." },
     "Game Night": { time: "Time TBD", location: "Venue TBD", desc: "Fun, games, and celebrations." },
     "Ruksati": { time: "Time TBD", location: "Venue TBD", desc: "The bride's farewell." },
