@@ -1,32 +1,1267 @@
 [
-  {"id": 1, "name": "Ali Khan", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 4}], "side": "bride"},
-  {"id": 2, "name": "Ali Syed", "events": [{"name": "Mehendi Night", "maxInvitees": 1}, {"name": "Wedding Ceremony", "maxInvitees": 3}, {"name": "Grand Reception", "maxInvitees": 3}], "side": "groom"},
-  {"id": 3, "name": "Ali Shaikh", "events": [{"name": "Wedding Ceremony", "maxInvitees": 1}], "side": "bride"},
-  {"id": 4, "name": "Fatima Khan", "events": [{"name": "Mehendi Night", "maxInvitees": 2}, {"name": "Wedding Ceremony", "maxInvitees": 4}, {"name": "Grand Reception", "maxInvitees": 4}], "side": "groom"},
-  {"id": 5, "name": "Fatima Abbas", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "bride"},
-  {"id": 6, "name": "Fatima Qureshi", "events": [{"name": "Wedding Ceremony", "maxInvitees": 1}, {"name": "Grand Reception", "maxInvitees": 1}], "side": "groom"},
-  {"id": 7, "name": "Zainab Rahman", "events": [{"name": "Mehendi Night", "maxInvitees": 1}, {"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "bride"},
-  {"id": 8, "name": "Zainab Siddiqui", "events": [{"name": "Wedding Ceremony", "maxInvitees": 3}, {"name": "Grand Reception", "maxInvitees": 3}], "side": "groom"},
-  {"id": 9, "name": "Zainab Malik", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 4}], "side": "bride"},
-  {"id": 10, "name": "Mohammed Ansari", "events": [{"name": "Mehendi Night", "maxInvitees": 2}, {"name": "Wedding Ceremony", "maxInvitees": 4}, {"name": "Grand Reception", "maxInvitees": 4}], "side": "groom"},
-  {"id": 11, "name": "Mohammed Merchant", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "bride"},
-  {"id": 12, "name": "Mohammed Khan", "events": [{"name": "Mehendi Night", "maxInvitees": 2}, {"name": "Wedding Ceremony", "maxInvitees": 5}, {"name": "Grand Reception", "maxInvitees": 5}], "side": "groom"},
-  {"id": 13, "name": "Ahmed Syed", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "bride"},
-  {"id": 14, "name": "Ahmed Shaikh", "events": [{"name": "Mehendi Night", "maxInvitees": 1}, {"name": "Wedding Ceremony", "maxInvitees": 3}, {"name": "Grand Reception", "maxInvitees": 3}], "side": "groom"},
-  {"id": 15, "name": "Ahmed Abbas", "events": [{"name": "Wedding Ceremony", "maxInvitees": 1}], "side": "bride"},
-  {"id": 16, "name": "Ayesha Qureshi", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "groom"},
-  {"id": 17, "name": "Ayesha Rahman", "events": [{"name": "Mehendi Night", "maxInvitees": 2}, {"name": "Wedding Ceremony", "maxInvitees": 4}, {"name": "Grand Reception", "maxInvitees": 4}], "side": "bride"},
-  {"id": 18, "name": "Ayesha Siddiqui", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "groom"},
-  {"id": 19, "name": "Omar Malik", "events": [{"name": "Wedding Ceremony", "maxInvitees": 1}], "side": "bride"},
-  {"id": 20, "name": "Omar Ansari", "events": [{"name": "Mehendi Night", "maxInvitees": 1}, {"name": "Wedding Ceremony", "maxInvitees": 3}, {"name": "Grand Reception", "maxInvitees": 5}], "side": "groom"},
-  {"id": 21, "name": "Omar Merchant", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "bride"},
-  {"id": 22, "name": "Khadija Khan", "events": [{"name": "Mehendi Night", "maxInvitees": 2}, {"name": "Wedding Ceremony", "maxInvitees": 4}, {"name": "Grand Reception", "maxInvitees": 4}], "side": "groom"},
-  {"id": 23, "name": "Khadija Syed", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "bride"},
-  {"id": 24, "name": "Khadija Shaikh", "events": [{"name": "Wedding Ceremony", "maxInvitees": 1}], "side": "groom"},
-  {"id": 25, "name": "Hassan Abbas", "events": [{"name": "Mehendi Night", "maxInvitees": 2}, {"name": "Wedding Ceremony", "maxInvitees": 5}, {"name": "Grand Reception", "maxInvitees": 5}], "side": "bride"},
-  {"id": 26, "name": "Hassan Qureshi", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "groom"},
-  {"id": 27, "name": "Hassan Rahman", "events": [{"name": "Mehendi Night", "maxInvitees": 1}, {"name": "Wedding Ceremony", "maxInvitees": 3}, {"name": "Grand Reception", "maxInvitees": 3}], "side": "bride"},
-  {"id": 28, "name": "Maryam Siddiqui", "events": [{"name": "Wedding Ceremony", "maxInvitees": 2}, {"name": "Grand Reception", "maxInvitees": 2}], "side": "groom"},
-  {"id": 29, "name": "Maryam Malik", "events": [{"name": "Wedding Ceremony", "maxInvitees": 1}], "side": "bride"},
-  {"id": 30, "name": "Maryam Ansari", "events": [{"name": "Mehendi Night", "maxInvitees": 2}, {"name": "Wedding Ceremony", "maxInvitees": 4}, {"name": "Grand Reception", "maxInvitees": 4}], "side": "groom"}
+  {
+    "id": 1,
+    "name": "Aliasghar Shk Sajid Hussain Kapasi",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 2,
+    "name": "Batool Aliasghar Kapasi",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 3,
+    "name": "Arwa BS M Abdeali BS",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 4,
+    "name": "Abbas Zohair Mandasore",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 5,
+    "name": "Abiali Qutbuddin Gadiwala",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 6,
+    "name": "Alifiyah Daniyal Ezzi",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 7,
+    "name": "Batool Hasnain Kanpurwala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 8,
+    "name": "Hamza Shk Shabbir Bootwala",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 9,
+    "name": "Huzefa Shk Mustafa Patan",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 10,
+    "name": "Arwa M Hussain Bohra",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 11,
+    "name": "Mohammad Shk Burhanuddin Bhinder",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 12,
+    "name": "Mohammad Murtaza Shajahanhotelwala",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 13,
+    "name": "Maria Ismail Safari",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 14,
+    "name": "Nafisa Hamza Jetpur",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 15,
+    "name": "Naqiya Huzaifa Cementwala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 16,
+    "name": "Ajab Taha Bharmal",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 17,
+    "name": "Alefiya Shabbir Chinikam",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 18,
+    "name": "Hussaina Hatim Khambati",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 19,
+    "name": "Fatima Hussain Arsiwala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 20,
+    "name": "Tasneem Moiz Chatriwala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 21,
+    "name": "Khadija Juzer",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 22,
+    "name": "Batool Taha Bakerywala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 23,
+    "name": "Zainab Burhanuddin Gheewala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 24,
+    "name": "Fatema Mustansir Ezzy",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 25,
+    "name": "Maryam Murtaza Nathani",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 26,
+    "name": "Hussaina Mohammad Taktawala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 27,
+    "name": "Sakina Mustansir Ahmedabadwala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 28,
+    "name": "Fatima Moiz Furniturewala",
+    "events": [
+      {
+        "name": "Shitabi/Mandwo",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 29,
+    "name": "Ammar Mustansir",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 30,
+    "name": "Taikhoom M Amir Mukadam",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 31,
+    "name": "Hatim Buhanuddin Patan",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 2
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 32,
+    "name": "Sakina Kaisar",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 33,
+    "name": "Umama Izhar",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 34,
+    "name": "Zahrah Mustafa Kakkal",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 35,
+    "name": "Isha Asif",
+    "events": [
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 36,
+    "name": "Rahmeen Jumma Khan",
+    "events": [
+      {
+        "name": "Game Night",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 37,
+    "name": "Shabbir Shk Burhanuddin Jasdenwala",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 38,
+    "name": "Abdemanaf Jorbai",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 39,
+    "name": "Tahir Badri",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 40,
+    "name": "Samina Khozema Dawoodjee",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 41,
+    "name": "Zainab Murtaza Jivanjee",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 42,
+    "name": "Nafisa Taher (Nafisa Feroz)",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 43,
+    "name": "Zahra Maad Rampurawala",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 44,
+    "name": "Zainab Shk Aliasghar Colombo",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 45,
+    "name": "Aliakbar Jamali",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 46,
+    "name": "Adnan Halai",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 47,
+    "name": "Mustafa Antaria",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 48,
+    "name": "Maria Mustansir Ali Merchant",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 49,
+    "name": "Saman Rizvi",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 50,
+    "name": "Kohinoor Zakir",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 51,
+    "name": "Arjumand Rubab",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 52,
+    "name": "Hussain Badruddin",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 53,
+    "name": "Habib Altaf",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 54,
+    "name": "Ruqaiya Shk Idrees Kothari",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 55,
+    "name": "Zahra M Hussain Bhinder (Zahra Mithai)",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 56,
+    "name": "Batool Moiz Baikery (Ex Club)",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 57,
+    "name": "Zahra Hussain (Ex Club)",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 58,
+    "name": "Rida Ahmed Alpha",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 59,
+    "name": "Arisha Shoukat Alpha",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 60,
+    "name": "Naveen Fahad Alpha",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 61,
+    "name": "Hania Tanveer Alpha",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 62,
+    "name": "Ayesha Shoaib Alpha",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 63,
+    "name": "Samreen Usama Alpha",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 64,
+    "name": "Safa Alpha",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 65,
+    "name": "Fatema Hussain Jasden",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 66,
+    "name": "Zainab Qutbuddin Anjar",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 67,
+    "name": "Zohair Taha Anjar",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 68,
+    "name": "Fatema Hatim Anjari",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 69,
+    "name": "Zainab Mufaddal Sadriwala",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 3
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 70,
+    "name": "Jumana Saintmary",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  },
+  {
+    "id": 71,
+    "name": "Maryum Amir Mandasore",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1
+      }
+    ],
+    "side": "bride"
+  }
 ]
