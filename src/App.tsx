@@ -7,6 +7,7 @@ import heroBg from './assets/1000238742.jpg';
 
 function App() {
   const [guest, setGuest] = useState<Guest | null>(null);
+  const [showGate, setShowGate] = useState(true);
 
   // Countdown logic for September 6th
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0 });
@@ -43,7 +44,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#FAF9F6] font-sans">
-      {!guest && <EnvelopeGate onOpen={setGuest} />}
+      {showGate && <EnvelopeGate onOpen={setGuest} onComplete={() => setShowGate(false)} />}
       
       {guest && (
         <main className="fade-in-up">
@@ -58,30 +59,37 @@ function App() {
 
             {/* Golden Border Accents */}
             <div className="absolute inset-4 md:inset-8 border-2 border-[#D4AF37]/80 rounded-lg pointer-events-none z-10 shadow-[0_0_15px_rgba(212,175,55,0.2)]"></div>
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30 mix-blend-overlay z-10"></div>
-            <div className="relative z-10 text-center p-6 sm:p-12 md:p-20 m-4 sm:m-6 max-w-[90vw] flex flex-col items-center">
-              
-              {/* Bismillah in Arabic */}
-              <div className="text-xl sm:text-2xl md:text-3xl font-arabic text-[#D4AF37] mb-6 drop-shadow-md">
-                بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
-              </div>
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/woven.png')] opacity-40 mix-blend-overlay z-10"></div>
+            
+            {/* Bismillah in Arabic - Placed overlapping the top gold frame */}
+            <div className="absolute top-2 md:top-6 left-1/2 -translate-x-1/2 z-20 w-32 md:w-48 drop-shadow-md">
+              <img 
+                src="/pngegg.png" 
+                alt="Bismillah" 
+                className="w-full h-auto object-contain"
+                style={{
+                  filter: 'invert(75%) sepia(35%) saturate(718%) hue-rotate(5deg) brightness(91%) contrast(88%) drop-shadow(0px 2px 4px rgba(0,0,0,0.3))'
+                }}
+              />
+            </div>
 
+            <div className="relative z-10 text-center p-6 sm:p-12 md:p-20 m-4 sm:m-6 max-w-[90vw] flex flex-col items-center">
               <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif mb-2 sm:mb-4 tracking-wider text-[#D4AF37] flex flex-col items-center gap-2 sm:gap-4 leading-tight">
                 {guest.side === 'bride' ? (
                   <>
-                    <span>Hawwa</span>
-                    <span className="text-3xl sm:text-4xl md:text-5xl italic font-light text-[#D4AF37]/80">&amp;</span>
-                    <span>Hussain</span>
+                    <span style={{ fontFamily: "'Wasted Vindey', cursive" }}>HAWWA</span>
+                    <span style={{ fontFamily: "'Wasted Vindey', cursive" }} className="text-3xl sm:text-4xl md:text-5xl text-[#D4AF37]/80">&amp;</span>
+                    <span style={{ fontFamily: "'Wasted Vindey', cursive" }}>HUSSAIN</span>
                   </>
                 ) : (
                   <>
-                    <span>Hussain</span>
-                    <span className="text-3xl sm:text-4xl md:text-5xl italic font-light text-[#D4AF37]/80">&amp;</span>
-                    <span>Hawwa</span>
+                    <span style={{ fontFamily: "'Wasted Vindey', cursive" }}>HUSSAIN</span>
+                    <span style={{ fontFamily: "'Wasted Vindey', cursive" }} className="text-3xl sm:text-4xl md:text-5xl text-[#D4AF37]/80">&amp;</span>
+                    <span style={{ fontFamily: "'Wasted Vindey', cursive" }}>HAWWA</span>
                   </>
                 )}
               </h1>
-              <p className="text-lg sm:text-xl md:text-3xl font-light tracking-widest uppercase mt-4">Are getting married</p>
+              <p className="text-xs sm:text-sm md:text-xl tracking-widest uppercase mt-10 font-sans text-[#D4AF37] whitespace-nowrap">Invite you to witness their wedding</p>
             </div>
 
             {/* Countdown Timer */}

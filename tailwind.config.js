@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         serif: ['"Playfair Display"', 'serif'],
         sans: ['Lato', 'sans-serif'],
+        script: ['Wasted Vindey', 'cursive'],
       },
     },
   },

@@ -34,38 +34,63 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
     <div className="py-12 sm:py-20 px-4 sm:px-6 max-w-5xl mx-auto space-y-20 sm:space-y-32 text-center">
       {/* Welcome Section */}
         <section ref={(el) => { sectionsRef.current[0] = el; }} className="opacity-0">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#800020] mb-4 sm:mb-6 leading-relaxed">
-            بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
-          </h2>
-        <div className="w-24 h-1 bg-[#D4AF37] mx-auto mb-6 sm:mb-8"></div>
-        <div className="flex flex-col gap-5 sm:gap-6 font-arabic text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto" dir="rtl">
+        <img 
+          src="/pngegg.png" 
+          alt="Bismillah" 
+          className="w-48 sm:w-64 mx-auto mb-1 sm:mb-2 -mt-12 sm:-mt-16 drop-shadow-sm object-cover h-24 sm:h-32"
+          style={{
+            filter: "invert(13%) sepia(93%) saturate(3295%) hue-rotate(334deg) brightness(73%) contrast(105%)",
+            objectPosition: "center"
+          }}
+        />
+        <div className="flex flex-col gap-5 sm:gap-6 text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto font-serif">
           
-          <p className="text-justify">
-            الداعي الاجل سيدنا محمد برهان الدين رض ایک بیان ما فرماوے چھے: فاطمة ني شادي ني حرمة سي دعاء كري لوں چھوں کہ خدا تعالیٰ مؤمنين انے مؤمنات نا جوڑا نے سلامة راکھے
+          <p className="italic text-[#D4AF37] text-lg sm:text-xl">
+            "And we created you in pairs" <br/>
+            <span className="text-sm not-italic text-gray-500">— Quran 78:8</span>
           </p>
 
-          <p className="text-justify">
-            الداعي الاجل سيدنا محمد برهان الدين رض انے اپنے منصور الداعي الاجل سيدنا ومولانا مفضل سيف الدين طع نادعاء مبارک نا وسيلة سي
+          <p className="mt-4 text-justify px-2 sm:px-0">
+            With the joyous blessings and grace of the Almighty Allah, we joyfully request the honor of your presence to witness and celebrate the union of two souls. We warmly invite you to join us on our special day, to share in our joy, and to keep us in your prayers as we embark on this beautiful journey together.
           </p>
 
-          <div className="py-6 border-y border-[#D4AF37]/30 my-2 text-[#800020] text-center">
-            <p className="mb-3">
-              <span className="block text-xs sm:text-sm text-gray-500 mb-1">(الابن العزيز)</span>
-              <span className="text-2xl sm:text-3xl font-bold">حسين</span><br/>
-              <span className="text-sm sm:text-base">بن برهان الدين بھائی لیس والا</span>
-            </p>
-            
-            <p className="my-4 text-[#D4AF37] font-bold text-xl sm:text-2xl">ني شادي مع</p>
-            
-            <p>
-              <span className="block text-xs sm:text-sm text-gray-500 mb-1">(البنت الحبيبة)</span>
-              <span className="text-2xl sm:text-3xl font-bold">حواء</span>
-            </p>
+          <div className="py-6 border-y border-[#D4AF37]/30 my-2 text-[#800020] text-center bg-[#FAF9F6]/50">
+            {guest.side === 'bride' ? (
+              <>
+                <p className="mb-3">
+                  <span className="text-2xl sm:text-3xl font-bold font-serif uppercase" style={{ fontFamily: "'Playfair Display', serif" }}>HAWWA</span>
+                </p>
+                
+                <p className="my-6 text-[#D4AF37] font-bold text-lg sm:text-xl tracking-widest uppercase flex items-center justify-center gap-4">
+                  <span className="w-12 h-[1px] bg-[#D4AF37]/50"></span>
+                  To wed
+                  <span className="w-12 h-[1px] bg-[#D4AF37]/50"></span>
+                </p>
+                
+                <p>
+                  <span className="text-2xl sm:text-3xl font-bold font-serif uppercase" style={{ fontFamily: "'Playfair Display', serif" }}>HUSSAIN</span><br/>
+                  <span className="text-sm sm:text-base text-gray-600 italic">Son of Burhanuddin Bhai Lace-wala</span>
+                </p>
+              </>
+            ) : (
+              <>
+                <p className="mb-3">
+                  <span className="text-2xl sm:text-3xl font-bold font-serif uppercase" style={{ fontFamily: "'Playfair Display', serif" }}>HUSSAIN</span>
+                </p>
+                
+                <p className="my-6 text-[#D4AF37] font-bold text-lg sm:text-xl tracking-widest uppercase flex items-center justify-center gap-4">
+                  <span className="w-12 h-[1px] bg-[#D4AF37]/50"></span>
+                  To wed
+                  <span className="w-12 h-[1px] bg-[#D4AF37]/50"></span>
+                </p>
+                
+                <p>
+                  <span className="text-2xl sm:text-3xl font-bold font-serif uppercase" style={{ fontFamily: "'Playfair Display', serif" }}>HAWWA</span><br/>
+                  <span className="text-sm sm:text-base text-gray-600 italic">Daughter of Haider Ali Saboon-wala</span>
+                </p>
+              </>
+            )}
           </div>
-
-          <p className="text-justify">
-            ساتھے مولانا المنعام طع نا دعاء مبارک انے رضا مبارک سي طے تھئي چھے ۔ تہ نواب مولی طع نے مع غاية الخشوع اذن عرض کريئے چھے
-          </p>
 
         </div>
       </section>

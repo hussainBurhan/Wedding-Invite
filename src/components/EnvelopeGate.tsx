@@ -5,9 +5,10 @@ import heroBg from '../assets/1000238742.jpg';
 
 interface Props {
   onOpen: (guest: Guest) => void;
+  onComplete: () => void;
 }
 
-export default function EnvelopeGate({ onOpen }: Props) {
+export default function EnvelopeGate({ onOpen, onComplete }: Props) {
   const [name, setName] = useState('');
   const [suggestions, setSuggestions] = useState<Guest[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -65,16 +66,18 @@ export default function EnvelopeGate({ onOpen }: Props) {
       // 2. Wait for doors animation to finish, then fade out the gate container
       setTimeout(() => {
         setIsFadingOut(true);
-        // 3. Wait for fade out, then transition to main screen
-        setTimeout(() => onOpen(guest), 1000);
-      }, 1500); // 1.5s matches the duration-1500 of the doors opening
+        // Render main screen in background instantly so EnvelopeGate fades out over it
+        onOpen(guest);
+        // 3. Wait for fade out to complete, then unmount EnvelopeGate entirely
+        setTimeout(() => onComplete(), 1500);
+      }, 3500); // Increased to 3.5s to give user even more time to read the text
     } else {
       setError('Name not found. Please check spelling.');
     }
   };
 
   return (
-    <div className={`fixed inset-0 z-50 flex items-center justify-center bg-[#800020] transition-opacity duration-1000 overflow-hidden ${isFadingOut ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+    <div className={`fixed inset-0 z-50 flex items-center justify-center bg-[#800020] transition-opacity duration-[1500ms] overflow-hidden ${isFadingOut ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
       
       {/* Background layer behind the doors (Revealed when opened) */}
       <div className="absolute inset-0 bg-[#800020] pointer-events-none">
@@ -83,14 +86,14 @@ export default function EnvelopeGate({ onOpen }: Props) {
           style={{ backgroundImage: `url(${heroBg})` }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#800020]/50 to-[#800020]"></div>
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/woven.png')] opacity-40 mix-blend-overlay"></div>
       </div>
       <div className={`absolute inset-0 flex flex-col items-center justify-center transition-all duration-1500 ease-in-out ${isOpening ? 'scale-100 opacity-100' : 'scale-90 opacity-0'}`}>
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif mb-4 tracking-wider text-[#D4AF37] flex flex-col items-center gap-2 sm:gap-4 leading-tight">
-          <span className="text-xl sm:text-2xl md:text-3xl font-light tracking-widest uppercase mb-2">A Love Letter From</span>
-          <span>Hawwa</span>
-          <span className="text-3xl sm:text-4xl md:text-5xl italic font-light text-[#D4AF37]/80">&amp;</span>
-          <span>Hussain</span>
+          <span style={{ fontFamily: "'Wasted Vindey', cursive" }}>HAWWA</span>
+          <span style={{ fontFamily: "'Wasted Vindey', cursive" }} className="text-3xl sm:text-4xl md:text-5xl text-[#D4AF37]/80">&amp;</span>
+          <span style={{ fontFamily: "'Wasted Vindey', cursive" }}>HUSSAIN</span>
+          <p className="text-lg sm:text-base md:text-2xl font-light tracking-widest uppercase mt-4 font-sans text-[#D4AF37] whitespace-nowrap">Are getting married</p>
         </h1>
       </div>
       
@@ -102,7 +105,7 @@ export default function EnvelopeGate({ onOpen }: Props) {
           className={`absolute top-0 left-0 bottom-0 w-1/2 bg-[#800020] origin-left transition-transform duration-1500 ease-in-out border-r border-[#D4AF37]/50 shadow-[15px_0_30px_rgba(0,0,0,0.3)] flex items-center justify-center overflow-hidden ${isOpening ? '[transform:rotateY(-110deg)]' : 'translate-x-0'}`}
         >
           {/* Texture */}
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/woven.png')] opacity-40 mix-blend-overlay"></div>
           {/* Edge gradient for depth */}
           <div className="absolute top-0 right-0 bottom-0 w-24 bg-gradient-to-l from-black/20 to-transparent z-0"></div>
           
@@ -120,7 +123,7 @@ export default function EnvelopeGate({ onOpen }: Props) {
           className={`absolute top-0 right-0 bottom-0 w-1/2 bg-[#800020] origin-right transition-transform duration-1500 ease-in-out border-l border-[#D4AF37]/50 shadow-[-15px_0_30px_rgba(0,0,0,0.3)] flex items-center justify-center overflow-hidden ${isOpening ? '[transform:rotateY(110deg)]' : 'translate-x-0'}`}
         >
           {/* Texture */}
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/woven.png')] opacity-40 mix-blend-overlay"></div>
           {/* Edge gradient for depth */}
           <div className="absolute top-0 left-0 bottom-0 w-24 bg-gradient-to-r from-black/20 to-transparent z-0"></div>
           
@@ -143,7 +146,7 @@ export default function EnvelopeGate({ onOpen }: Props) {
         <div className="w-[220px] h-[220px] md:w-[260px] md:h-[260px] rounded-full bg-[#800020] shadow-[0_15px_35px_rgba(0,0,0,0.8)] border-[4px] border-[#D4AF37] flex flex-col items-center justify-center p-4 relative">
           
           {/* Subtle wax texture overlay */}
-          <div className="absolute inset-0 rounded-full bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30 mix-blend-overlay pointer-events-none"></div>
+          <div className="absolute inset-0 rounded-full bg-[url('https://www.transparenttextures.com/patterns/black-paper.png')] opacity-60 mix-blend-multiply pointer-events-none"></div>
           
           {/* Inner embossed rings */}
           <div className="absolute inset-2 border border-[#D4AF37]/40 rounded-full pointer-events-none"></div>
@@ -188,7 +191,7 @@ export default function EnvelopeGate({ onOpen }: Props) {
             
             <button
               type="submit"
-              className="w-full py-1.5 md:py-2 mt-2 bg-[#D4AF37] text-[#800020] font-bold tracking-widest uppercase rounded hover:bg-[#F3E5AB] transition-colors shadow-[0_4px_10px_rgba(0,0,0,0.3)] text-[10px] md:text-xs"
+              className="w-3/4 mx-auto block py-1.5 md:py-2 mt-2 bg-[#D4AF37] text-[#800020] font-bold tracking-widest uppercase rounded hover:bg-[#F3E5AB] transition-colors shadow-[0_4px_10px_rgba(0,0,0,0.3)] text-[10px] md:text-xs"
             >
               Open
             </button>
