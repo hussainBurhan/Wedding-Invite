@@ -24,15 +24,27 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
     return () => observer.disconnect();
   }, []);
 
-  const eventDetails: Record<string, { time: string; location: string; desc: string }> = {
-    "Mehendi Night": { time: "6:00 PM - Friday", location: "The Royal Gardens", desc: "Join us for an evening of music, dance, and henna." },
-    "Wedding Ceremony": { time: "10:00 AM - Saturday", location: "Grand Palace Hall", desc: "Witness the sacred union and vows." },
-    "Grand Reception": { time: "7:00 PM - Saturday", location: "Crystal Ballroom", desc: "Dine and dance the night away to celebrate." },
-    "Shitabi & Mandwo": { time: "Time TBD", location: "Venue TBD", desc: "Traditional pre-wedding ceremonies." },
-    "Majlis": { time: "Time TBD", location: "Venue TBD", desc: "A spiritual gathering and blessings." },
-    "Game Night": { time: "Time TBD", location: "Venue TBD", desc: "Fun, games, and celebrations." },
-    "Ruksati": { time: "Time TBD", location: "Venue TBD", desc: "The bride's farewell." },
-    "Walima": { time: "Time TBD", location: "Venue TBD", desc: "The wedding banquet." }
+  const eventDetails: Record<string, { time: string; location: string }> = {
+    "Mehendi Night": { time: "6:00 PM - Friday", location: "The Royal Gardens" },
+    "Wedding Ceremony": { time: "10:00 AM - Saturday", location: "Grand Palace Hall" },
+    "Grand Reception": { time: "7:00 PM - Saturday", location: "Crystal Ballroom" },
+    "Shitabi": {
+      time: "23 Rabiul Awal · 4th September 2026 · Friday · 2:00 PM",
+      location: "Flat #403 Rabia Terrace, Shabbirabad Block B",
+    },
+    "Majlis": {
+      time: "25 Rabiul Awal · 6th September 2026 · Sunday · 1:30 PM",
+      location: "Ezzi Hall, Yusufi Masjid, Shabbirabad Block B",
+    },
+    "Game Night": { time: "Time TBD", location: "Venue TBD" },
+    "Ruksati": {
+      time: "29 Rabiul Awal · 10th September 2026 · Thursday · 8:30 PM",
+      location: "Evan e Mufaddal, Yusufi Masjid, Shabbirabad Block B",
+    },
+    "Walima": {
+      time: "1st Rabiul Akhir · 12th September 2026 · Saturday · 8:30 PM",
+      location: "Saleh Masjid, Gaari Khata",
+    },
   };
 
   return (
@@ -113,11 +125,18 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
               <p className="text-[#D4AF37] font-semibold mb-4 text-sm sm:text-base">{eventDetails[event.name]?.time}</p>
               <div className="bg-[#FAF9F6] py-1.5 sm:py-2 px-3 sm:px-4 rounded mb-4 inline-block border border-[#D4AF37]/30">
                 <p className="text-[#800020] font-semibold text-sm sm:text-base">
-                  Admitting: {event.maxInvitees === 2 ? 'Couple' : `${event.maxInvitees} Guest${event.maxInvitees > 1 ? 's' : ''}`}
+                  {event.maxInvitees === 'all'
+                    ? 'All'
+                    : event.ladies === 1 && event.gents === 1
+                      ? 'Gents (1)  Ladies (1)'
+                      : event.ladies === 1 && event.gents === 0
+                        ? 'Ladies (1)'
+                        : event.gents === 1 && event.ladies === 0
+                          ? 'Gents (1)'
+                          : `${event.maxInvitees} Guest${typeof event.maxInvitees === 'number' && event.maxInvitees > 1 ? 's' : ''}`}
                 </p>
               </div>
-              <p className="text-gray-800 font-medium mb-2 text-sm sm:text-base">{eventDetails[event.name]?.location}</p>
-              <p className="text-gray-600 text-xs sm:text-sm">{eventDetails[event.name]?.desc}</p>
+              <p className="text-gray-800 font-medium text-sm sm:text-base">{eventDetails[event.name]?.location}</p>
             </div>
           ))}
         </div>

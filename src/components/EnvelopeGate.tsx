@@ -152,7 +152,11 @@ export default function EnvelopeGate({ onOpen, onComplete }: Props) {
           <div className="absolute inset-2 border border-[#D4AF37]/40 rounded-full pointer-events-none"></div>
           <div className="absolute inset-3 border-2 border-dashed border-[#D4AF37]/20 rounded-full pointer-events-none"></div>
 
-          <h2 className="text-4xl md:text-4xl font-serif text-[#D4AF37] mb-4 font-normal tracking-widest relative z-10 drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]" style={{ fontFamily: "'Playfair Display', serif" }}>H | H</h2>
+          <img
+            src="/seal-logo.png"
+            alt="HH monogram"
+            className="w-16 h-20 md:w-20 md:h-24 object-contain mb-3 relative z-10 drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]"
+          />
           
           <form onSubmit={handleOpen} className="w-4/5 relative z-10 space-y-3">
             <div className="relative" ref={wrapperRef}>

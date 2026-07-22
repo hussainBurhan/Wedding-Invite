@@ -1,6 +1,8 @@
 export interface GuestEvent {
   name: string;
-  maxInvitees: number;
+  maxInvitees: number | 'all';
+  ladies: number;
+  gents: number;
 }
 
 export interface Guest {
