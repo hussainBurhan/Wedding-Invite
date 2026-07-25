@@ -3977,5 +3977,155 @@
       }
     ],
     "side": "groom"
+  },
+  {
+    "id": 214,
+    "name": "Abbas Zoeb Partapur wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 2,
+        "maxInvitees": 4
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 215,
+    "name": "Hatim Aqeel Gondal Wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 2,
+        "maxInvitees": 4
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 216,
+    "name": "Muhammad Hussain Baroda wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 2,
+        "maxInvitees": 4
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 217,
+    "name": "Muffadal Saifuddin Laathi wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 2,
+        "maxInvitees": 4
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 218,
+    "name": "Taha Saifuddin Mandvi wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 2,
+        "maxInvitees": 4
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 219,
+    "name": "Mustafa Hasnain lakda wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 2,
+        "maxInvitees": 4
+      }
+    ],
+    "side": "groom"
   }
 ]
