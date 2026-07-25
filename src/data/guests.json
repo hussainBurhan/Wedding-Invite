@@ -4381,15 +4381,15 @@
     "events": [
       {
         "name": "Ruksati",
-        "ladies": 0,
+        "ladies": 1,
         "gents": 1,
-        "maxInvitees": 1
+        "maxInvitees": 2
       },
       {
         "name": "Walima",
-        "ladies": 0,
+        "ladies": 1,
         "gents": 1,
-        "maxInvitees": 1
+        "maxInvitees": 2
       }
     ],
     "side": "groom"
