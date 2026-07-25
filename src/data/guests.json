@@ -3479,5 +3479,503 @@
       }
     ],
     "side": "groom"
+  },
+  {
+    "id": 178,
+    "name": "Ali Asghar Bali Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 179,
+    "name": "M. Zulfiqar Bhai Ujjain Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 180,
+    "name": "M. Feroz Bhai Qamari",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 181,
+    "name": "Maleka Bhen Shajapur Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 182,
+    "name": "Saeeda Zoeb Udaipur Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 183,
+    "name": "Shabbir Bhai Palanpur Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 184,
+    "name": "Amina Mufaddal",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 185,
+    "name": "Farhat Burhan Banduk Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 186,
+    "name": "Nafisa Haryana",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 187,
+    "name": "Umema Akhtar Udaipur Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 188,
+    "name": "Mr. & Mrs. Hasnain Taqi",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 189,
+    "name": "Mr. & Mrs. Hasnain Jawed",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 190,
+    "name": "Tasneem Yousuf Dhanera Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 191,
+    "name": "Zainab Burhan Kanch Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 192,
+    "name": "Fatema Murtaza Jamali",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 193,
+    "name": "Ali Shaukat Dhanera Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 194,
+    "name": "Murtaza Hatim Multan Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 195,
+    "name": "Fatema Khand Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 196,
+    "name": "Qutbuddin Bhai Furniture Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 197,
+    "name": "Khadija Times Tea",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 198,
+    "name": "Safia Haider Mandasore Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 199,
+    "name": "Saleha Mustansir",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 200,
+    "name": "Asma Saifuddin",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 201,
+    "name": "Nafisa Ben Hussain Bhai",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 202,
+    "name": "Fatema Mustafa Multan Wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 203,
+    "name": "Ali Hussain Rangwala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 204,
+    "name": "Shama Bhen",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 0,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 205,
+    "name": "Tasneem Zoeb Bhai Antanria",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 0,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 206,
+    "name": "Habiba Abdul Qadir",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 0,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 207,
+    "name": "Zainab Aun Ali",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 0,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 208,
+    "name": "Zainab Saify",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 0,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 209,
+    "name": "Mr. & Mrs. Moin",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": "all"
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 210,
+    "name": "Sh. Younus Hakimuddin Sitarwala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": "all"
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 211,
+    "name": "Zubaida Burhani",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": "all"
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 212,
+    "name": "Murtaza Sh. Zakir Hussain Mojevdi Wala",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": "all"
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 213,
+    "name": "Burhanuddin Saifuddin Kapasi",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Game Night",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
   }
 ]
