@@ -111,9 +111,9 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
       {/* Events Section */}
       <section ref={(el) => { sectionsRef.current[1] = el; }} className="opacity-0">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-[#800020] mb-8 sm:mb-12">Your Events</h2>
-        <div className="grid gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 justify-center">
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-8">
           {guest.events.map((event) => (
-            <div key={event.name} className="border border-[#D4AF37] p-6 sm:p-8 bg-white shadow-lg relative max-w-sm mx-auto w-full">
+            <div key={event.name} className="border border-[#D4AF37] p-6 sm:p-8 bg-white shadow-lg relative w-full max-w-sm sm:w-80 flex-none">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#FAF9F6] px-4">
                 <span className="text-3xl text-[#800020]">❦</span>
               </div>
