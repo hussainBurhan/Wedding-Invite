@@ -4399,6 +4399,12 @@
     "name": "Hammad Ahmed Khan",
     "events": [
       {
+        "name": "Majlis",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
         "name": "Ruksati",
         "ladies": 0,
         "gents": 1,
@@ -4417,6 +4423,12 @@
     "id": 235,
     "name": "Syed Hassan Sayyaf",
     "events": [
+      {
+        "name": "Majlis",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
       {
         "name": "Ruksati",
         "ladies": 0,
