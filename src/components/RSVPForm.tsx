@@ -25,7 +25,7 @@ function defaultAttendance(event: GuestEvent): Attendance {
 }
 
 function inviteLabel(event: GuestEvent): string {
-  if (event.maxInvitees === 'all') return 'All';
+  if (event.maxInvitees === 'all') return 'Invites: All';
   if (event.ladies > 0 && event.gents > 0) return `Gents (${event.gents})  Ladies (${event.ladies})`;
   if (event.ladies > 0) return `Ladies (${event.ladies})`;
   if (event.gents > 0) return `Gents (${event.gents})`;

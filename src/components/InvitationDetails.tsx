@@ -122,7 +122,7 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
               <div className="bg-[#FAF9F6] py-1.5 sm:py-2 px-3 sm:px-4 rounded mb-4 inline-block border border-[#D4AF37]/30">
                 <p className="text-[#800020] font-semibold text-sm sm:text-base">
                   {event.maxInvitees === 'all'
-                    ? 'All'
+                    ? 'Invites: All'
                     : event.ladies > 0 && event.gents > 0
                       ? `Gents (${event.gents})  Ladies (${event.ladies})`
                       : event.ladies > 0

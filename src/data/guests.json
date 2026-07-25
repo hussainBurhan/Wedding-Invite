@@ -3785,7 +3785,7 @@
     "events": [
       {
         "name": "Majlis",
-        "ladies": 0,
+        "ladies": 1,
         "gents": 0,
         "maxInvitees": 1
       },
@@ -3804,7 +3804,7 @@
     "events": [
       {
         "name": "Majlis",
-        "ladies": 0,
+        "ladies": 1,
         "gents": 0,
         "maxInvitees": 1
       },
