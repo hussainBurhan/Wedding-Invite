@@ -28,10 +28,6 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
     "Mehendi Night": { time: "6:00 PM - Friday", location: "The Royal Gardens" },
     "Wedding Ceremony": { time: "10:00 AM - Saturday", location: "Grand Palace Hall" },
     "Grand Reception": { time: "7:00 PM - Saturday", location: "Crystal Ballroom" },
-    "Shitabi": {
-      time: "23 Rabiul Awal · 4th September 2026 · Friday · 2:00 PM",
-      location: "Flat #403 Rabia Terrace, Shabbirabad Block B",
-    },
     "Majlis": {
       time: "25 Rabiul Awal · 6th September 2026 · Sunday · 1:30 PM",
       location: "Ezzi Hall, Yusufi Masjid, Shabbirabad Block B",

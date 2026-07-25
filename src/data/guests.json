@@ -4,12 +4,6 @@
     "name": "Aliasghar Shk Sajid Hussain Kapasi / Batool Kapasi",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 1,
@@ -40,12 +34,6 @@
     "id": 2,
     "name": "Arwa Baisaab Abdeali Bhaisaab",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -140,12 +128,6 @@
     "name": "Alifiyah Daniyal Ezzi",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -176,12 +158,6 @@
     "id": 6,
     "name": "Batool Hasnain Kanpurwala",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -276,12 +252,6 @@
     "name": "Arwa Mulla Hussain Bohra",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -375,12 +345,6 @@
     "name": "Maria Ismail Safari",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -411,12 +375,6 @@
     "id": 13,
     "name": "Nafisa Hamza Jetpur",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -449,12 +407,6 @@
     "name": "Naqiya Huzaifa Cementwala",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -485,12 +437,6 @@
     "id": 15,
     "name": "Ajab Taha Bharmal",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -523,12 +469,6 @@
     "name": "Alefiya Shabbir Chinikam",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -559,12 +499,6 @@
     "id": 17,
     "name": "Hussaina Hatim Khambati",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -597,12 +531,6 @@
     "name": "Fatima Iqbal Hussain Arsiwala",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -633,12 +561,6 @@
     "id": 19,
     "name": "Tasneem Moiz Chatriwala",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -671,12 +593,6 @@
     "name": "Khadija Juzer Singaporewala",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -707,12 +623,6 @@
     "id": 21,
     "name": "Batool Taha Bakerywala",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -745,12 +655,6 @@
     "name": "Zainab Burhanuddin Gheewala",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -781,12 +685,6 @@
     "id": 23,
     "name": "Fatema Mustansir Ezzy",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -819,12 +717,6 @@
     "name": "Maryam Murtaza Nathani",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -855,12 +747,6 @@
     "id": 25,
     "name": "Hussaina Mohammad Taktawala",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -893,12 +779,6 @@
     "name": "Sakina Mustansir Ahmedabadwala",
     "events": [
       {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
-      {
         "name": "Majlis",
         "ladies": 1,
         "gents": 0,
@@ -929,12 +809,6 @@
     "id": 27,
     "name": "Fatima Moiz Furniturewala",
     "events": [
-      {
-        "name": "Shitabi",
-        "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
-      },
       {
         "name": "Majlis",
         "ladies": 1,
@@ -1377,32 +1251,6 @@
         "ladies": 1,
         "gents": 0,
         "maxInvitees": 1
-      }
-    ],
-    "side": "bride"
-  },
-  {
-    "id": 51,
-    "name": "Hussain Bhai Badruddin",
-    "events": [
-      {
-        "name": "Ruksati",
-        "ladies": 1,
-        "gents": 1,
-        "maxInvitees": 2
-      }
-    ],
-    "side": "bride"
-  },
-  {
-    "id": 52,
-    "name": "Habib Bhai Altaf",
-    "events": [
-      {
-        "name": "Ruksati",
-        "ladies": 1,
-        "gents": 1,
-        "maxInvitees": 2
       }
     ],
     "side": "bride"
@@ -3156,5 +3004,480 @@
       }
     ],
     "side": "bride"
+  },
+  {
+    "id": 147,
+    "name": "Komal Zia",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": "all",
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Ruksati",
+        "maxInvitees": "all",
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": "all",
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 148,
+    "name": "Tariq",
+    "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 1
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 149,
+    "name": "Fatema Mulla Aliasghar Jamali",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 150,
+    "name": "Fatema Aliasghar (JG)",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 151,
+    "name": "Zahra Hatim Kapasi wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 152,
+    "name": "Arefa Yousuf Badri",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 153,
+    "name": "Insiya Hatim Haveli wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 154,
+    "name": "Fatema Salman Udaipur wala",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 155,
+    "name": "Fatema huzaifa Ghariyali",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 156,
+    "name": "Maria Taha Zanzibar",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 157,
+    "name": "Munira M.Taha Tamba",
+    "events": [
+      {
+        "name": "Majlis",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      },
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 158,
+    "name": "Hamza jessor",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 159,
+    "name": "Muhammad Mustafa Bhinder",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 160,
+    "name": "Muhammad Shk. Shabbir Jamali",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 161,
+    "name": "Habib Ammar Reemaj wala",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 162,
+    "name": "Azhar Aliasghar",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 163,
+    "name": "Muhammad Amir Nicobar wala",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 164,
+    "name": "Murtaza Tahir Deewan",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 165,
+    "name": "Hussain Badruddin Jamnagar",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 166,
+    "name": "Aisha Irshad",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 167,
+    "name": "Murtaza Dolly",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 168,
+    "name": "Shabbir kapasi",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 169,
+    "name": "Ibrahim Khansab",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 170,
+    "name": "ShereBanu Mahu",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 171,
+    "name": "Hatim Shabbir",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 172,
+    "name": "Idrees Multani",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 173,
+    "name": "Hussain Chotu",
+    "events": [
+      {
+        "name": "Walima",
+        "maxInvitees": 1,
+        "ladies": 0,
+        "gents": 0
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 174,
+    "name": "Alifiyah Abbas Kapasi",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 0,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 175,
+    "name": "Sarah Talib Ujjain",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 0,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 176,
+    "name": "Khadija Mustafa Ghani",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 2,
+        "gents": 0,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 177,
+    "name": "Batool Kinana",
+    "events": [
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
   }
 ]
