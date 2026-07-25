@@ -24,12 +24,16 @@ function defaultAttendance(event: GuestEvent): Attendance {
   return { ladies: event.maxInvitees as number, gents: 0 };
 }
 
+function inviteLabel(event: GuestEvent): string {
+  if (event.maxInvitees === 'all') return 'All';
+  if (event.ladies > 0 && event.gents > 0) return `Gents (${event.gents})  Ladies (${event.ladies})`;
+  if (event.ladies > 0) return `Ladies (${event.ladies})`;
+  if (event.gents > 0) return `Gents (${event.gents})`;
+  return `Invites ${event.maxInvitees}`;
+}
+
 function allowedLabel(event: GuestEvent): string {
-  if (event.maxInvitees === 'all') return 'Allowed: All';
-  if (event.ladies === 1 && event.gents === 1) return 'Allowed: 1 Lady & 1 Gent';
-  if (event.ladies === 1 && event.gents === 0) return 'Allowed: Ladies (1)';
-  if (event.gents === 1 && event.ladies === 0) return 'Allowed: Gents (1)';
-  return `Allowed: up to ${event.maxInvitees}`;
+  return `Allowed: ${inviteLabel(event)}`;
 }
 
 function buildAttendancePayload(
@@ -48,16 +52,29 @@ function summarizeAttendance(entry: AttendancePayload): string {
   if (kind === 'all') return ladies > 0 ? 'All' : '0';
   if (kind === 'dual') {
     if (ladies === 0 && gents === 0) return '0';
-    if (ladies === 1 && gents === 1) return '1L+1G';
-    if (ladies === 1 && gents === 0) return '1 Lady';
-    if (ladies === 0 && gents === 1) return '1 Gent';
     return `${ladies}L+${gents}G`;
   }
-  if (kind === 'ladies') return ladies > 0 ? '1 Lady' : '0';
-  if (kind === 'gents') return gents > 0 ? '1 Gent' : '0';
+  if (kind === 'ladies') {
+    if (ladies === 0) return '0';
+    return ladies === 1 ? '1 Lady' : `${ladies} Ladies`;
+  }
+  if (kind === 'gents') {
+    if (gents === 0) return '0';
+    return `${gents} Gent${gents > 1 ? 's' : ''}`;
+  }
   const total = ladies + gents;
   if (total === 0) return '0';
-  return `${total} Guest${total > 1 ? 's' : ''}`;
+  return `${total} Invite${total > 1 ? 's' : ''}`;
+}
+
+function rangeOptions(
+  max: number,
+  label: (n: number) => string
+): { value: number; text: string }[] {
+  return Array.from({ length: max + 1 }, (_, i) => ({
+    value: i,
+    text: i === 0 ? 'Not Attending' : label(i),
+  }));
 }
 
 export default function RSVPForm({ guest }: { guest: Guest }) {
@@ -159,6 +176,11 @@ export default function RSVPForm({ guest }: { guest: Guest }) {
     );
   }
 
+  const selectClass =
+    'w-full sm:w-48 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60';
+  const dualSelectClass =
+    'w-full sm:w-36 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60';
+
   return (
     <section ref={formRef} className="py-12 sm:py-20 px-4 sm:px-6 opacity-0 bg-[#FAF9F6]">
       <div className="max-w-2xl mx-auto border-4 border-[#D4AF37] p-6 sm:p-8 md:p-12 bg-white relative">
@@ -193,7 +215,7 @@ export default function RSVPForm({ guest }: { guest: Guest }) {
                           [event.name]: { ladies: Number(e.target.value), gents: 0 },
                         }))
                       }
-                      className="w-full sm:w-48 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60"
+                      className={selectClass}
                     >
                       <option value={0}>Not Attending</option>
                       <option value={1}>All Attending</option>
@@ -209,11 +231,14 @@ export default function RSVPForm({ guest }: { guest: Guest }) {
                             [event.name]: { ...prev[event.name], ladies: Number(e.target.value) },
                           }))
                         }
-                        className="w-full sm:w-36 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60"
+                        className={dualSelectClass}
                         aria-label={`${event.name} ladies`}
                       >
-                        <option value={0}>Not Attending</option>
-                        <option value={1}>1 Lady</option>
+                        {rangeOptions(event.ladies, (n) =>
+                          n === 1 ? '1 Lady' : `${n} Ladies`
+                        ).map((opt) => (
+                          <option key={opt.value} value={opt.value}>{opt.text}</option>
+                        ))}
                       </select>
                       <select
                         value={attendance.gents}
@@ -224,11 +249,14 @@ export default function RSVPForm({ guest }: { guest: Guest }) {
                             [event.name]: { ...prev[event.name], gents: Number(e.target.value) },
                           }))
                         }
-                        className="w-full sm:w-36 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60"
+                        className={dualSelectClass}
                         aria-label={`${event.name} gents`}
                       >
-                        <option value={0}>Not Attending</option>
-                        <option value={1}>1 Gent</option>
+                        {rangeOptions(event.gents, (n) =>
+                          n === 1 ? '1 Gent' : `${n} Gents`
+                        ).map((opt) => (
+                          <option key={opt.value} value={opt.value}>{opt.text}</option>
+                        ))}
                       </select>
                     </div>
                   ) : isLadiesOnly ? (
@@ -241,10 +269,13 @@ export default function RSVPForm({ guest }: { guest: Guest }) {
                           [event.name]: { ladies: Number(e.target.value), gents: 0 },
                         }))
                       }
-                      className="w-full sm:w-48 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60"
+                      className={selectClass}
                     >
-                      <option value={0}>Not Attending</option>
-                      <option value={1}>1 Lady</option>
+                      {rangeOptions(event.ladies, (n) =>
+                        n === 1 ? '1 Lady' : `${n} Ladies`
+                      ).map((opt) => (
+                        <option key={opt.value} value={opt.value}>{opt.text}</option>
+                      ))}
                     </select>
                   ) : isGentsOnly ? (
                     <select
@@ -256,10 +287,13 @@ export default function RSVPForm({ guest }: { guest: Guest }) {
                           [event.name]: { ladies: 0, gents: Number(e.target.value) },
                         }))
                       }
-                      className="w-full sm:w-48 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60"
+                      className={selectClass}
                     >
-                      <option value={0}>Not Attending</option>
-                      <option value={1}>1 Gent</option>
+                      {rangeOptions(event.gents, (n) =>
+                        n === 1 ? '1 Gent' : `${n} Gents`
+                      ).map((opt) => (
+                        <option key={opt.value} value={opt.value}>{opt.text}</option>
+                      ))}
                     </select>
                   ) : (
                     <select
@@ -271,12 +305,12 @@ export default function RSVPForm({ guest }: { guest: Guest }) {
                           [event.name]: { ladies: Number(e.target.value), gents: 0 },
                         }))
                       }
-                      className="w-full sm:w-48 border-2 border-[#D4AF37] bg-transparent py-2 px-3 focus:outline-none focus:border-[#800020] rounded text-sm sm:text-base disabled:opacity-60"
+                      className={selectClass}
                     >
-                      {[...Array((event.maxInvitees as number) + 1)].map((_, i) => (
-                        <option key={i} value={i}>
-                          {i === 0 ? 'Not Attending' : `${i} Guest${i > 1 ? 's' : ''}`}
-                        </option>
+                      {rangeOptions(event.maxInvitees as number, (n) =>
+                        n === 1 ? '1 Invite' : `${n} Invites`
+                      ).map((opt) => (
+                        <option key={opt.value} value={opt.value}>{opt.text}</option>
                       ))}
                     </select>
                   )}

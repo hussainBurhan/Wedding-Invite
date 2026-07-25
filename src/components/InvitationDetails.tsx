@@ -127,13 +127,13 @@ export default function InvitationDetails({ guest }: { guest: Guest }) {
                 <p className="text-[#800020] font-semibold text-sm sm:text-base">
                   {event.maxInvitees === 'all'
                     ? 'All'
-                    : event.ladies === 1 && event.gents === 1
-                      ? 'Gents (1)  Ladies (1)'
-                      : event.ladies === 1 && event.gents === 0
-                        ? 'Ladies (1)'
-                        : event.gents === 1 && event.ladies === 0
-                          ? 'Gents (1)'
-                          : `${event.maxInvitees} Guest${typeof event.maxInvitees === 'number' && event.maxInvitees > 1 ? 's' : ''}`}
+                    : event.ladies > 0 && event.gents > 0
+                      ? `Gents (${event.gents})  Ladies (${event.ladies})`
+                      : event.ladies > 0
+                        ? `Ladies (${event.ladies})`
+                        : event.gents > 0
+                          ? `Gents (${event.gents})`
+                          : `Invites ${event.maxInvitees}`}
                 </p>
               </div>
               <p className="text-gray-800 font-medium text-sm sm:text-base">{eventDetails[event.name]?.location}</p>
