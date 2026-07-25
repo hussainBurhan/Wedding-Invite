@@ -4279,5 +4279,182 @@
       }
     ],
     "side": "groom"
+  },
+  {
+    "id": 228,
+    "name": "Sohaib Ahmed",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 229,
+    "name": "Mamoon Ahmed Khan",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 230,
+    "name": "Ammar Khan",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 231,
+    "name": "Mohammad Iqbal Saleem",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      },
+      {
+        "name": "Walima",
+        "ladies": 1,
+        "gents": 1,
+        "maxInvitees": 2
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 232,
+    "name": "Hammad Ahmed Kashmiri",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 233,
+    "name": "Yasir Zahid",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 234,
+    "name": "Hammad Ahmed Khan",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 235,
+    "name": "Syed Hassan Sayyaf",
+    "events": [
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 1,
+        "maxInvitees": 1
+      }
+    ],
+    "side": "groom"
+  },
+  {
+    "id": 236,
+    "name": "Muhammad Abrar Ul Haq Jilani",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": "all"
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": "all"
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": "all"
+      }
+    ],
+    "side": "groom"
   }
 ]
