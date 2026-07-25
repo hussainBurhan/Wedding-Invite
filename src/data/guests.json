@@ -582,8 +582,8 @@
       {
         "name": "Walima",
         "ladies": 1,
-        "gents": 0,
-        "maxInvitees": 1
+        "gents": 1,
+        "maxInvitees": 2
       }
     ],
     "side": "bride"
