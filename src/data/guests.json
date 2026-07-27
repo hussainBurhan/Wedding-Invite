@@ -4480,5 +4480,30 @@
       }
     ],
     "side": "groom"
+  },
+  {
+    "id": 237,
+    "name": "Hussain Jabir Kapasi",
+    "events": [
+      {
+        "name": "Majlis",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": 4
+      },
+      {
+        "name": "Ruksati",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": 4
+      },
+      {
+        "name": "Walima",
+        "ladies": 0,
+        "gents": 0,
+        "maxInvitees": 4
+      }
+    ],
+    "side": "bride"
   }
 ]
