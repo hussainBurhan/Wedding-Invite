@@ -3264,6 +3264,12 @@
     "name": "Habib Ammar Neemaj wala",
     "events": [
       {
+        "name": "Ruksati",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      },
+      {
         "name": "Walima",
         "maxInvitees": 2,
         "ladies": 1,
@@ -3315,6 +3321,12 @@
     "id": 165,
     "name": "Hussain Badruddin Jamnagar",
     "events": [
+      {
+        "name": "Ruksati",
+        "maxInvitees": 2,
+        "ladies": 1,
+        "gents": 1
+      },
       {
         "name": "Walima",
         "maxInvitees": 2,
